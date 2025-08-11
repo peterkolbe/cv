@@ -1,0 +1,144 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Peter Kolbe",
+    "label": "Solution Architect & Full Stack Developer",
+    "image": "https://www.guid3r.com/wp-content/uploads/2025/08/me_MEDIUM_square.jpg",
+    "email": "p.kolbe@outlook.com",
+    "phone": "",
+    "url": "http://richardhendricks.example.com",
+    "summary": "With over 7 years of professional experience as a Solution Architect and a couple more as Full Stack Developer, I focus on delivering software that solves real business problems — not just what IT thinks might be useful.\n\nOn the backend side, my journey spans from the classic Java Enterprise Edition (JEE) 5/6 with IBM WebSphere 8, through to modern Spring Boot 3 with GitHub Actions and Kubernetes running in Microsoft Azure. My development approach is always grounded in Domain-Driven Design, complemented by Layered or Hexagonal Architecture depending on project complexity.\n\nOn the frontend, my experience goes back to PlayFramework 1, Ruby on Rails 3, and early JavaScript libraries like jQuery and Dojo. I have led multiple client projects using IBM BPM 8 (with and without IS Financial) in JavaScript, followed by smaller engagements with Angular 2, and later, numerous large and small-scale projects with React 16+ and TypeScript.\n\nAs an architect and lead developer in the banking sector, I’ve successfully transformed existing software monoliths into modular monoliths and microservices. I have also defined and implemented development guidelines, libraries, and standards for entire client organizations, enabling internal teams to adopt consistent, scalable, and future-proof practices.",
+    "location": {
+      "city": "Offenbach am Main",
+      "country": "Germany",
+      "countryCode": "DE"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "peter--kolbe",
+        "url": "https://www.linkedin.com/in/peter--kolbe"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Pied Piper",
+      "location": "Palo Alto, CA",
+      "description": "Awesome compression company",
+      "position": "CEO/President",
+      "url": "http://piedpiper.example.com",
+      "startDate": "2013-12-01",
+      "endDate": "2014-12-01",
+      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "highlights": [
+        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+        "Successfully won Techcrunch Disrupt",
+        "Optimized an algorithm that holds the current world record for Weisman Scores"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": " Technische Universität Berlin",
+      "url": "https://www.tu.berlin",
+      "area": "Computer Science",
+      "studyType": "Master",
+      "startDate": "2011-04-01",
+      "endDate": "2013-08-01"
+    },
+    {
+      "institution": " Technische Universität Berlin",
+      "url": "https://www.tu.berlin",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2007-09-01",
+      "endDate": "2011-03-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Solution Architect",
+      "level": "Senior",
+      "keywords": [
+        "Business Process Management (BPM / BPMN)",
+        "System Integration",
+        "Domain Driven Design",
+        "CQRS",
+        "REST",
+        "OpenAPI",
+        "Cloud Events",
+        "Microservices / Moduliths",
+        "Cloud Computing",
+        "Azure"
+      ]
+    },
+    {
+      "name": "Backend Development",
+      "level": "Senior",
+      "keywords": [
+        "Mpeg",
+        "MP4",
+        "GIF"
+      ]
+    },
+    {
+      "name": "Frontend Development",
+      "level": "Senior",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "German",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Music",
+      "keywords": [
+        "Guitar",
+        "Music Production"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Miss Direction",
+      "description": "A mapping engine that misguides you",
+      "highlights": [
+        "Won award at AIHacks 2016",
+        "Built by all women team of newbie programmers",
+        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
+      ],
+      "keywords": [
+        "GoogleMaps",
+        "Chrome Extension",
+        "Javascript"
+      ],
+      "startDate": "2016-08-24",
+      "endDate": "2016-08-24",
+      "url": "missdirection.example.com",
+      "roles": [
+        "Team lead",
+        "Designer"
+      ],
+      "entity": "Smoogle",
+      "type": "application"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/sample.resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}
