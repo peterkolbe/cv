@@ -18,7 +18,7 @@ the main branch, the site is automatically built and deployed to production.
 npm install
 ```
 
-#### Take the `ìndex.js` from [node_modules](node_modules/jsonresume-theme-even/dist/index.js) and copy it to [themes/even-custom](./themes/even-custom):
+#### Copy the even [ìndex.js from node_modules](node_modules/jsonresume-theme-even/dist/index.js) to your sources in [themes/even-custom](./themes/even-custom):
 
 ```shell
 npm run copy-even-theme
@@ -26,8 +26,8 @@ npm run copy-even-theme
 
 #### Modify the [copied index.js](./themes/even-custom/index.js)
 
-#### Use [cli.js](./themes/even-custom/cli.js) to generate the cv:
+#### Generate cv with [build script](./package.json) using [cli.js](./themes/even-custom/cli.js) to generate the cv:
 
 ```shell
-node themes/even-custom/cli.js < resume.json > index.html
+npm run build
 ```
