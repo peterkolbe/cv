@@ -5,10 +5,15 @@
   "scripts": {
     "init": "resumed init",
     "start": "npm start",
-    "build": "mkdir -p dist && resumed --theme jsonresume-theme-even -o dist/index.html"
+    "clean": "rimraf dist && mkdir -p dist",
+    "build": "npm run clean && node themes/even-custom/cli.js < resume.json > dist/index.html",
+    "build-original-even-theme": "npm run clean && resumed --theme jsonresume-theme-even -o dist/index.html"
   },
   "dependencies": {
     "jsonresume-theme-even": "^0.23.0",
     "resumed": "^6.0.0"
+  },
+  "devDependencies": {
+    "rimraf": "^6.0.1"
   }
 }
