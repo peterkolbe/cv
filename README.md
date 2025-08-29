@@ -15,5 +15,5 @@ Just take the `ìndex.js` from [node_modules](node_modules/jsonresume-theme-even
 `cli.js`can be used to generate the cv with:
 
 ```shell
-mkdir -p dist && node themes/even-custom/cli.js < resume.json > dist/index.html
+node themes/even-custom/cli.js < resume.json > index.html
 ```
