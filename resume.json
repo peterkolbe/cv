@@ -18,7 +18,13 @@
         "network": "LinkedIn",
         "username": "peter--kolbe",
         "url": "https://www.linkedin.com/in/peter--kolbe"
+      },
+      {
+        "network": "This CV's source code on GitHub",
+        "username": "peterkolbe",
+        "url": "https://github.com/peterkolbe/cv"
       }
+
     ]
   },
   "skills": [
