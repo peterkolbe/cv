@@ -3,13 +3,13 @@
   "basics": {
     "name": "Peter Kolbe",
     "label": "Solution Architect & Full Stack Developer",
-    "image": "https://www.guid3r.com/wp-content/uploads/2025/08/me_MEDIUM_square.jpg",
-    "email": "p.kolbe@outlook.com",
+    "image": "https://media.licdn.com/dms/image/v2/C4D03AQEanY-GG1rWCA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516999836895?e=1758153600&v=beta&t=JWsuI8tDC7WvPq_lHM6FcMPBmNyFHNCBNGNmQ8KXIVY",
+    "email": "work@peterkolbe.com",
     "phone": "",
-    "url": "http://richardhendricks.example.com",
-    "summary": "With over 7 years of professional experience as a Solution Architect and a couple more as Full Stack Developer, I focus on delivering software that solves real business problems — not just what IT thinks might be useful.\n\nOn the backend side, my journey spans from the classic Java Enterprise Edition (JEE) 5/6 with IBM WebSphere 8, through to modern Spring Boot 3 with GitHub Actions and Kubernetes running in Microsoft Azure. My development approach is always grounded in Domain-Driven Design, complemented by Layered or Hexagonal Architecture depending on project complexity.\n\nOn the frontend, my experience goes back to PlayFramework 1, Ruby on Rails 3, and early JavaScript libraries like jQuery and Dojo. I have led multiple client projects using IBM BPM 8 (with and without IS Financial) in JavaScript, followed by smaller engagements with Angular 2, and later, numerous large and small-scale projects with React 16+ and TypeScript.\n\nAs an architect and lead developer in the banking sector, I’ve successfully transformed existing software monoliths into modular monoliths and microservices. I have also defined and implemented development guidelines, libraries, and standards for entire client organizations, enabling internal teams to adopt consistent, scalable, and future-proof practices.",
+    "url": "https://www.peterkolbe.com",
+    "summary": "With over 7 years of professional experience as a Solution Architect and a couple more as Full Stack Developer, I focus on delivering software that solves real business problems — not just what IT thinks might be useful.\n\nAs an architect and lead developer in the banking sector, I’ve successfully transformed existing software monoliths into modular monoliths and microservices. I have also defined and implemented development guidelines, libraries, and standards for entire client organizations, enabling internal teams to adopt consistent, scalable, and future-proof practices.\n\nAs a backend developer, my journey spans from the classic Java Enterprise Edition (JEE) 5/6 with IBM WebSphere 8, through to modern Spring Boot 3 with GitHub Actions and Kubernetes running in Microsoft Azure. My development approach is always grounded in Domain-Driven Design, complemented by Layered or Hexagonal Architecture depending on project complexity.\n\nAs a frontend developer, my experience goes back to PlayFramework 1, Ruby on Rails 3, and early JavaScript libraries like jQuery and Dojo. I have led multiple client projects using IBM Business Automation Workflow 8 (with and without IS Financial) in JavaScript, a small engagement with Angular 2, and many large and small-scale projects with React 16+ and TypeScript.",
     "location": {
-      "city": "Offenbach am Main",
+      "city": "Frankfurt am Main",
       "country": "Germany",
       "countryCode": "DE"
     },
@@ -21,26 +21,423 @@
       }
     ]
   },
+  "skills": [
+    {
+      "name": "Solution Architecture",
+      "level": "Senior",
+      "keywords": [
+        "Business Process Management",
+        "Domain Driven Design", "CQRS",
+        "C4 Architecture Modelling",
+        "Microservices",
+        "Moduliths",
+        "System Integration",
+        "API Management",
+        "REST",
+        "OpenAPI",
+        "Cloud Events",
+        "Cloud Computing"
+      ]
+    },
+    {
+      "name": "Backend Development",
+      "level": "Senior",
+      "keywords": [
+        "Java",
+        "Spring Boot",
+        "Jakarta EE",
+        "Node",
+        "Javascript",
+        "Typescript",
+        "NextJS",
+        "Camunda BPM",
+        "IBM BAW",
+        "IBM ODM",
+        "Azure Cloud",
+        "IBM Cloud",
+        "Github Actions",
+        "Docker",
+        "Kubernetes",
+        "Helm",
+        "ArgoCD",
+        "SQL",
+        "PostgreSQL",
+        "NoSQL",
+        "MongoDB",
+        "CosmosDB"
+      ]
+    },
+    {
+      "name": "Frontend Development",
+      "level": "Senior",
+      "keywords": [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "NextJS",
+        "Angular",
+        "Playwright",
+        "Jest",
+        "Vitest",
+        "HTML",
+        "CSS"
+      ]
+    }
+  ],
   "work": [
     {
-      "name": "Pied Piper",
-      "location": "Palo Alto, CA",
-      "description": "Awesome compression company",
-      "position": "CEO/President",
-      "url": "http://piedpiper.example.com",
+      "name": "Freelancer",
+      "location": "Frankfurt am Main",
+      "position": "Solution Architect & Full Stack Developer",
+      "url": "https://www.peterkolbe.com",
+      "startDate": "2018-01-01",
+      "summary": "As an architect and lead developer in the banking sector, I modernized enterprise process landscapes by designing and optimizing business processes, transforming legacy monoliths into modular monoliths and microservices, and defining and implementing organization-wide development guidelines, libraries, and standards—enabling internal teams to adopt consistent, scalable, and future-proof practices.",
+      "highlights": [
+        "Business Process Management, API Management, System Integration",
+        "Domain Driven Design, CQRS, Hexagonal Architecture",
+        "Java, Spring Boot, Jakarta EE",
+        "JavaScript, TypeScript, React, Angular",
+        "IBM Business Automation Workflow, IBM WebSphere (Application Server, Liberty)"
+      ]
+    },
+    {
+      "name": "IBM",
+      "url": "https://www.ibm.com",
+      "location": "Berlin",
+      "position": "Full Stack Developer",
+      "startDate": "2015-07-01",
+      "endDate": "2017-12-01",
+      "summary": "Implemented customer projects as BPM analyst and developer in the finance sector, delivering process automation solutions based on BPMN and IBM Business Automation Workflow, as well as system integrations using Java and IBM WebSphere.",
+      "highlights": [
+        "Java, Jakarta EE",
+        "IBM WebSphere (Application Server, Liberty)",
+        "Web Development (Javascript, HTML, CSS)",
+        "IBM Business Automation Workflow, BPMN"
+      ]
+    },
+    {
+      "name": "BASF",
+      "url": "https://www.basf.com",
+      "location": "Berlin",
+      "position": "Product Owner",
+      "startDate": "2013-12-01",
+      "endDate": "2015-06-01",
+      "summary": "Led two global BPM projects as Product Owner — one in the finance sector and another in raw material master data management. Also led smaller projects in finance, HR, and knowledge management within the Berlin office.",
+      "highlights": [
+        "Project Management",
+        "Business Process Management (BPM, BPMN)",
+        "Web Development (Javascript, HTML, CSS)"
+      ]
+    },
+    {
+      "name": "Technische Universität Berlin",
+      "url": "https://www.tu.berlin",
+      "location": "Berlin, Germany",
+      "position": "Student Tutor",
+      "startDate": "2009-09-01",
+      "endDate": "2013-09-01",
+      "summary": "Taught courses in fundamentals of computer science, software modeling, and model-driven software development; supervised software engineering projects and internships using Scrum (on-site).",
+      "highlights": [
+        "Fundamentals of Computer Science (Java)",
+        "Software Modeling & Model-Driven Software Development (UML, BPMN)",
+        "Supervision of software engineering projects and internships (Eclipse, EML, GEF, Java)",
+        "Applied Scrum in student projects (Scrum)"
+      ]
+    },
+    {
+      "name": "Deutsche Telekom AG",
+      "url": "https://www.telekom.com",
+      "location": "Germany",
+      "position": "Intern — Business Analysis",
+      "startDate": "2011-10-01",
+      "endDate": "2012-03-01",
+      "summary": "Conducted a study on content delivery networks (CDNs), evaluating provider software and business models to inform strategic decisions at Deutsche Telekom.",
+      "highlights": [
+        "Evaluated CDN provider offerings, architectures and capabilities",
+        "Analyzed pricing and business models",
+        "Prepared findings and recommendations for stakeholders"
+      ]
+    }
+
+
+
+
+  ],
+  "projects": [
+    {
+      "name": "Reusable Translation Web Components",
+      "description": "Developed and deployed web components as reusable frontend modules integrating DeepL and Azure text and file Translator APIs for banking purposes.",
+      "keywords": [
+        "TypeScript",
+        "React",
+        "Nginx",
+        "DeepL",
+        "Azure",
+        "Docker",
+        "Kubernetes",
+        "Github Actions"
+      ],
+      "startDate": "2025-01-01",
+      "endDate": "2025-03-31",
+      "url": "",
+      "roles": [
+        "Lead Full Stack Developer"
+      ],
+      "entity": "Major public-sector financial institution",
+      "type": "application"
+    },
+    {
+      "name": "Enterprise-wide Customer Search Solution",
+      "description": "Identified and prioritized recurring customer needs; designed, provided, and maintained APIs and reusable web components for customer lookups and data retrieval, eliminating redundant implementations and achieving organization-wide adoption.",
+      "keywords": [
+        "Java",
+        "Spring Boot",
+        "TypeScript",
+        "React",
+        "Web Components",
+        "CosmosDB",
+        "SOAP",
+        "REST",
+        "Azure",
+        "Docker",
+        "Kubernetes",
+        "Github Actions"
+      ],
+      "startDate": "2023-06-01",
+      "endDate": "2023-12-31",
+      "url": "",
+      "roles": [
+        "Solution Architect",
+        "Lead Full Stack Developer"
+      ],
+      "entity": "Major public-sector financial institution",
+      "type": "Web App, API"
+    },
+    {
+      "name": "Dashboard-Driven Employee Workspace Portal",
+      "description": "Migrated a commercial portal solution to a modular, dashboard-driven employee workspace portal built with web components. Delivered runtime-configurable modules that either handle lightweight tasks directly in the portal or deep-link into case-centric applications; customer-context dashboards bundle relevant modules as the daily entry point for internal users.",
+      "keywords": [
+        "Java",
+        "Spring Boot",
+        "PostgreSQL",
+        "TypeScript",
+        "React",
+        "Web Components",
+        "Azure",
+        "Docker",
+        "Kubernetes",
+        "Github Actions"
+      ],
+      "startDate": "2024-02-01",
+      "endDate": "2024-11-01",
+      "url": "",
+      "roles": [
+        "Solution Architect",
+        "Lead Full Stack Developer"
+      ],
+      "entity": "Major public-sector financial institution",
+      "type": "application"
+    },
+    {
+      "name": "Authentication and Authorization Standards",
+      "description": "Designed a company-wide authentication and authorization standard to meet modern security requirements and enable scalable integration; provided backend and frontend libraries to centralize complexity.",
+      "keywords": [
+        "OAuth 2.0",
+        "OpenID Connect",
+        "MS Entra ID",
+        "TypeScript",
+        "React",
+        "Github Actions",
+        "Azure"
+      ],
+      "startDate": "2022-07-01",
+      "endDate": "2023-03-01",
+      "url": "",
+      "roles": [
+        "Solution Architect",
+        "Lead Full Stack Developer"
+      ],
+      "entity": "Major public-sector financial institution",
+      "type": "Solution Design, API, Web App, Libraries"
+    },
+    {
+      "name": "Blue Prints & Common Libraries for Web Application Development",
+      "description": "Contributed to common libraries and an application blueprint to accelerate custom web application development.",
+      "keywords": [
+        "Java",
+        "Spring Boot",
+        "TypeScript",
+        "React",
+        "Web Components"
+      ],
       "startDate": "2013-12-01",
       "endDate": "2014-12-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
-      "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
-      ]
+      "url": "",
+      "roles": [
+        "Lead Full Stack Developer"
+      ],
+      "entity": "Major public-sector financial institution",
+      "type": "Web App, Libraries"
+    },
+    {
+      "name": "Migration of Credit Analysis and Decision Protocol Lifecycle",
+      "description": "Migrated the credit protocol lifecycle monolith to modern moduliths and microservices; designed the overall architecture and implemented key components.",
+      "keywords": [
+        "Moduliths",
+        "Microservices",
+        "Domain-Driven Design",
+        "CQRS",
+        "Hexagonal Architecture",
+        "API Management",
+        "OpenAPI 3.0",
+        "Java",
+        "Spring Boot",
+        "TypeScript",
+        "React"
+      ],
+      "startDate": "2021-04-01",
+      "endDate": "2024-03-01",
+      "url": "",
+      "roles": [
+        "Solution Architect",
+        "Lead Full Stack Developer"
+      ],
+      "entity": "Major public-sector financial institution",
+      "type": "Web App, Workflow, API"
+    },
+    {
+      "name": "Digitalization of Deal Flow",
+      "description": "Transformed the paper-based credit protocol lifecycle into a fully digital, end-to-end process. Defined the domain model using Domain-Driven Design (DDD) and implemented BPMN workflows in IBM Business Automation Workflow (BAW) covering intake, market analysis, approval, and contract management. Built Java integrations on IBM WebSphere Application Server and delivered automated, compliant long-term archiving—generating PDFs with Eclipse BIRT and storing them in DOXIS.",
+      "keywords": [
+        "IBM Business Automation Workflow",
+        "IBM Cloud",
+        "JavaScript",
+        "Java",
+        "Jakarta EE"
+      ],
+      "startDate": "2018-09-01",
+      "endDate": "2021-06-01",
+      "url": "",
+      "roles": [
+        "Solution Architect",
+        "Lead Full Stack Developer"
+      ],
+      "entity": "Specialized European commercial real estate bank",
+      "type": "Web App, Workflow, API"
+    },
+    {
+      "name": "Electronic Process Control",
+      "description": "Orchestrated end-to-end workflows for investments, account opening, and large-scale contract mailings with return handling. Built two-stage validation (first-level checks and four-eyes review) with SLA-based escalations and reminders, event-driven archiving via a downstream service, KYC onboarding and periodic re-verification, and GDPR housekeeping (one-year retention, automated deletion). Supported cover letters, framework agreements, and account-opening reminders.",
+      "keywords": [
+        "IBM Business Automation Workflow",
+        "IBM Cloud",
+        "Java",
+        "Jakarta EE",
+        "JavaScript",
+        "Apache Kafka"
+      ],
+      "startDate": "2019-06-01",
+      "endDate": "2020-12-01",
+      "url": "",
+      "roles": [
+        "Solution Architect",
+        "Lead Full Stack Developer"
+      ],
+      "entity": "Specialized European commercial real estate bank",
+      "type": "Web App, Workflow"
+    },
+    {
+      "name": "Cloud User Management",
+      "description": "Built and operated a cloud-based application providing user and group management for IBM Business Automation Workflow apps, leveraging IBM Cloud and BAW REST APIs—at a time when no official UIs existed—thereby necessitating a custom frontend.",
+      "keywords": [
+        "Angular 2",
+        "JavaScript",
+        "IBM Cloud"
+      ],
+      "startDate": "2019-09-01",
+      "endDate": "2019-12-31",
+      "url": "",
+      "roles": [
+        "Lead Frontend Developer"
+      ],
+      "entity": "Specialized European commercial real estate bank",
+      "type": "Web App"
+    },
+    {
+      "name": "Digitalization of Asset Valuation Process",
+      "description": "Developed a web application with an integrated BPM process for asset valuation.",
+      "keywords": [
+        "IBM Business Automation Workflow",
+        "JavaScript"
+      ],
+      "startDate": "2019-01-01",
+      "endDate": "2019-06-01",
+      "url": "",
+      "roles": [
+        "Solution Architect",
+        "Lead Full Stack Developer"
+      ],
+      "entity": "Specialized European commercial real estate bank",
+      "type": "Web App, Workflow"
+    },
+    {
+      "name": "Business Rule–Based Task Assignments",
+      "description": "Optimized electronic collateral protocol processes with case-based task assignments driven by dynamic business rules.",
+      "keywords": [
+        "IBM Business Automation Workflow",
+        "IBM Operational Decision Manager",
+        "JavaScript"
+      ],
+      "startDate": "2018-05-01",
+      "endDate": "2018-09-01",
+      "url": "",
+      "roles": [
+        "Developer"
+      ],
+      "entity": "Major German Bank",
+      "type": "Web App, Workflow"
+    },
+    {
+      "name": "Archiving of Electronic Credit Protocols",
+      "description": "Supported and implemented the extraction and long-term archiving of credit protocols by analyzing and preparing data structures, defining interfaces with the document-generation provider (DocFamily), building Java integrations on IBM WebSphere Application Server, and implementing the archiving workflow in IBM Business Automation Workflow (BAW).",
+      "keywords": [
+        "Java",
+        "Jakarta EE",
+        "IBM WebSphere Application Server",
+        "IBM WebSphere Liberty",
+        "IBM Business Automation Workflow",
+        "JavaScript",
+        "DocFamily"
+      ],
+      "startDate": "2018-01-01",
+      "endDate": "2018-05-01",
+      "url": "",
+      "roles": [
+        "Backend Developer"
+      ],
+      "entity": "Major German Bank",
+      "type": "Web App, Workflow"
+    },
+    {
+      "name": "Digitalization of Collateral Management Process",
+      "description": "Digitalization of the end-to-end collateral management process, enabling creation of new collateral and updates to existing collateral, with seamless integration to the host-based core inventory system.",
+      "keywords": [
+        "IBM Business Automation Workflow",
+        "JavaScript"
+      ],
+      "startDate": "2015-07-01",
+      "endDate": "2017-03-01",
+      "url": "",
+      "roles": [
+        "Developer"
+      ],
+      "entity": "Major German Bank",
+      "type": "Web App, Workflow"
     }
   ],
   "education": [
     {
-      "institution": " Technische Universität Berlin",
+      "institution": "Technische Universität Berlin",
       "url": "https://www.tu.berlin",
       "area": "Computer Science",
       "studyType": "Master",
@@ -48,48 +445,12 @@
       "endDate": "2013-08-01"
     },
     {
-      "institution": " Technische Universität Berlin",
+      "institution": "Technische Universität Berlin",
       "url": "https://www.tu.berlin",
       "area": "Computer Science",
       "studyType": "Bachelor",
       "startDate": "2007-09-01",
       "endDate": "2011-03-01"
-    }
-  ],
-  "skills": [
-    {
-      "name": "Solution Architect",
-      "level": "Senior",
-      "keywords": [
-        "Business Process Management (BPM / BPMN)",
-        "System Integration",
-        "Domain Driven Design",
-        "CQRS",
-        "REST",
-        "OpenAPI",
-        "Cloud Events",
-        "Microservices / Moduliths",
-        "Cloud Computing",
-        "Azure"
-      ]
-    },
-    {
-      "name": "Backend Development",
-      "level": "Senior",
-      "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
-      ]
-    },
-    {
-      "name": "Frontend Development",
-      "level": "Senior",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
-      ]
     }
   ],
   "languages": [
@@ -111,34 +472,9 @@
       ]
     }
   ],
-  "projects": [
-    {
-      "name": "Miss Direction",
-      "description": "A mapping engine that misguides you",
-      "highlights": [
-        "Won award at AIHacks 2016",
-        "Built by all women team of newbie programmers",
-        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
-      ],
-      "keywords": [
-        "GoogleMaps",
-        "Chrome Extension",
-        "Javascript"
-      ],
-      "startDate": "2016-08-24",
-      "endDate": "2016-08-24",
-      "url": "missdirection.example.com",
-      "roles": [
-        "Team lead",
-        "Designer"
-      ],
-      "entity": "Smoogle",
-      "type": "application"
-    }
-  ],
   "meta": {
-    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/sample.resume.json",
+    "canonical": "https://github.com/peterkolbe/cv/resume.json",
     "version": "v1.0.0",
-    "lastModified": "2017-12-24T15:53:00"
+    "lastModified": "2025-08-28T16:32:00"
   }
 }

@@ -1,18 +1,14 @@
 {
   "private": true,
+  "name": "cv",
   "type": "module",
   "scripts": {
     "init": "resumed init",
     "start": "npm start",
-    "build": "resumed --theme jsonresume-theme-even",
-    "build-flat": "resumed --theme jsonresume-theme-flat",
-    "build-elegant": "resumed --theme jsonresume-theme-elegant",
-    "build-elegant-dark": "resumed --theme jsonresume-theme-elegant-jali"
+    "build": "mkdir -p dist && resumed --theme jsonresume-theme-even -o dist/index.html"
   },
   "dependencies": {
     "jsonresume-theme-even": "^0.23.0",
-    "jsonresume-theme-flat": "^0.3.7",
-    "jsonresume-theme-elegant-jali": "^1.2.2",
     "resumed": "^6.0.0"
   }
 }
