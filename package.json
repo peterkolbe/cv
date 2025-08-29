@@ -3,6 +3,7 @@
   "name": "cv",
   "type": "module",
   "scripts": {
+    "copy-even-theme" : "shx mkdir -p themes/even-custom && npx shx cp node_modules/jsonresume-theme-even/dist/index.js themes/even-custom/index.js",
     "clean": "shx rm -rf dist && shx mkdir -p dist",
     "build": "npm run clean && node themes/even-custom/cli.js < resume.json > dist/index.html",
     "build-original-even-theme": "npm run clean && resumed --theme jsonresume-theme-even -o dist/index.html"
