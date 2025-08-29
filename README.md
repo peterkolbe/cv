@@ -1,6 +1,5 @@
 # Resume Builder
 
-shx cp node_modules/jsonresume-theme-even/dist/index.js themes/even-custom/index.js
 This project generates my professional resume using the JSON Resume standard format and the Even theme.
 
 [www.peterkolbe.com](https://www.peterkolbe.com)
