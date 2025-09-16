@@ -24,7 +24,6 @@
         "username": "peterkolbe",
         "url": "https://github.com/peterkolbe/cv"
       }
-
     ]
   },
   "skills": [
@@ -33,7 +32,8 @@
       "level": "Senior",
       "keywords": [
         "Business Process Management",
-        "Domain Driven Design", "CQRS",
+        "Domain Driven Design",
+        "CQRS",
         "C4 Architecture Modelling",
         "Microservices",
         "Moduliths",
@@ -163,19 +163,17 @@
         "Prepared findings and recommendations for stakeholders"
       ]
     }
-
-
-
-
   ],
   "projects": [
     {
-      "name": "Reusable Translation Web Components",
-      "description": "Developed and deployed web components as reusable frontend modules integrating DeepL and Azure text and file Translator APIs for banking purposes.",
+      "name": "Translation API and Web Components",
+      "description": "Designed and built a customer-wide Translation Facade API together with reusable web components for text and file translation in banking. The components integrate exclusively via the facade, which abstracts DeepL and Azure behind a stable, versioned contract—keeping the frontend decoupled and allowing seamless provider swaps.",
       "keywords": [
+        "Java",
+        "Spring Boot",
         "TypeScript",
         "React",
-        "Nginx",
+        "Web Components",
         "DeepL",
         "Azure",
         "Docker",
@@ -189,7 +187,54 @@
         "Lead Full Stack Developer"
       ],
       "entity": "Major public-sector financial institution",
-      "type": "application"
+      "type": "Web App, API"
+    },
+    {
+      "name": "SWIFT Payment Pre-Validation Web Component",
+      "description": "Developed a reusable frontend web component integrating the SWIFT Payment Pre-Validation API to verify account details, beneficiary information, and routing data in real-time. Enabled banks to reduce failed payments and processing costs by providing instant validation at the point of initiation.",
+      "keywords": [
+        "TypeScript",
+        "React",
+        "Nginx",
+        "SWIFT Payment Pre-Validation API",
+        "Azure",
+        "Docker",
+        "Kubernetes",
+        "Github Actions"
+      ],
+      "startDate": "2024-11-01",
+      "endDate": "2024-12-19",
+      "url": "",
+      "roles": [
+        "Lead Full Stack Developer"
+      ],
+      "entity": "Major public-sector financial institution",
+      "type": "Web App"
+    },
+    {
+      "name": "Dashboard-Driven Employee Workspace Portal",
+      "description": "Migrated a commercial portal solution to a modular, dashboard-driven employee workspace portal built with web components. Delivered runtime-configurable modules that either handle lightweight tasks directly in the portal or deep-link into case-centric applications; customer-context dashboards bundle relevant modules as the daily entry point for internal users.",
+      "keywords": [
+        "Java",
+        "Spring Boot",
+        "PostgreSQL",
+        "TypeScript",
+        "React",
+        "Web Components",
+        "Azure",
+        "Docker",
+        "Kubernetes",
+        "Github Actions"
+      ],
+      "startDate": "2024-02-01",
+      "endDate": "2024-11-01",
+      "url": "",
+      "roles": [
+        "Solution Architect",
+        "Lead Full Stack Developer"
+      ],
+      "entity": "Major public-sector financial institution",
+      "type": "Web App, Portal"
     },
     {
       "name": "Enterprise-wide Customer Search Solution",
@@ -219,29 +264,23 @@
       "type": "Web App, API"
     },
     {
-      "name": "Dashboard-Driven Employee Workspace Portal",
-      "description": "Migrated a commercial portal solution to a modular, dashboard-driven employee workspace portal built with web components. Delivered runtime-configurable modules that either handle lightweight tasks directly in the portal or deep-link into case-centric applications; customer-context dashboards bundle relevant modules as the daily entry point for internal users.",
+      "name": "Blue Prints & Common Libraries for Web Application Development",
+      "description": "Contributed to common libraries and an application blueprint to accelerate custom web application development.",
       "keywords": [
         "Java",
         "Spring Boot",
-        "PostgreSQL",
         "TypeScript",
         "React",
-        "Web Components",
-        "Azure",
-        "Docker",
-        "Kubernetes",
-        "Github Actions"
+        "Web Components"
       ],
-      "startDate": "2024-02-01",
-      "endDate": "2024-11-01",
+      "startDate": "2022-12-01",
+      "endDate": "2024-12-01",
       "url": "",
       "roles": [
-        "Solution Architect",
         "Lead Full Stack Developer"
       ],
       "entity": "Major public-sector financial institution",
-      "type": "application"
+      "type": "Web App, Libraries"
     },
     {
       "name": "Authentication and Authorization Standards",
@@ -264,25 +303,6 @@
       ],
       "entity": "Major public-sector financial institution",
       "type": "Solution Design, API, Web App, Libraries"
-    },
-    {
-      "name": "Blue Prints & Common Libraries for Web Application Development",
-      "description": "Contributed to common libraries and an application blueprint to accelerate custom web application development.",
-      "keywords": [
-        "Java",
-        "Spring Boot",
-        "TypeScript",
-        "React",
-        "Web Components"
-      ],
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
-      "url": "",
-      "roles": [
-        "Lead Full Stack Developer"
-      ],
-      "entity": "Major public-sector financial institution",
-      "type": "Web App, Libraries"
     },
     {
       "name": "Migration of Credit Analysis and Decision Protocol Lifecycle",
